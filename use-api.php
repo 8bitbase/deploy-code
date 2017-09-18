@@ -36,3 +36,7 @@
     $response = curl_exec($ch);
     curl_close ($ch);
     print_r($response);
+    // Return
+    /*
+    {"error":"","message":"OK","result":"Hello, world!\r\n","stats":"Compilation time: 0,12 sec, absolute running time: 0,08 sec, cpu time: 0,08 sec, average memory usage: 13 Mb, average nr of threads: 2"}
+    */

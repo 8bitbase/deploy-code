@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+    </head>
+    <body>
+        <form action="use-api.php" method="post">
+            <input type="text" name="lang" value="C#"/>
+            <br/><br/>
+            <textarea name="code" rows="25" cols="50">using System;
+            using System.Collections.Generic;
+            using System.Linq;
+            using System.Text.RegularExpressions;
+    
+            namespace Rextester
+            {
+                public class Program
+                {
+                    public static void Main(string[] args)
+                    {
+                        //Your code goes here
+                        Console.WriteLine("Hello, world!");
+                    }
+                }
+            }
+            </textarea>
+            <br/><br/>
+            <input type="text" name="token" value="0"/>
+            <br/><br/>
+            <button type="submit">Execute</button>
+        </form>
+    </body>
+</html>
